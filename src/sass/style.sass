@@ -6,7 +6,7 @@
     margin: 0 auto
 
 .promo
-    height: 650px
+    min-height: 650px
     background: url("../img/main.jpg") center center/cover no-repeat
     padding: 20px 0 90px 0
     &__header
@@ -41,6 +41,7 @@
             background-color: #c70101
             outline: none
             margin-top: 8px
+            cursor: pointer
     &__consultation
         margin-top: 90px
         display: flex
@@ -82,6 +83,7 @@
                 outline: none
                 color: #ffffff
                 text-transform: uppercase
+                cursor: pointer
         &_link
             color: #ffffff
             margin-top: 18px
@@ -89,3 +91,28 @@
                 color: #ffffff
                 text-decoration: underline
                 text-transform: uppercase
+
+.advantages
+    min-height: 470px
+    &__title
+        margin-top: 70px
+        text-align: center
+        font-size: 30px
+        font-weight: 700
+    &__items
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        text-align: center
+        margin-top: 65px
+    &__item
+        width: 250px
+    &__text
+        margin-top: 38px
+        font-size: 14px
+        font-weight: 500
+        h3
+            font-size: 18px
+            font-weight: 700
+        a
+            color: red
